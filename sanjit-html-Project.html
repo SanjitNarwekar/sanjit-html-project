@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+======================================================================================================================
+CHECKS PASSED:
+======================================================================================================================
+https://validator.w3.org/nu/#textarea PASSED WITH NO WARNINGS OR ERRORS
+http://wave.webaim.org/
+======================================================================================================================
+-->
+<!--
+======================================================================================================================
+REQUIREMENTS / INSTRUCTIONS:
+======================================================================================================================
+The heading is: Colleen van Lent (change to your name) -- DONE
+The text for the four links is: One, Two, Three, and Your choice (change to text of your choice) -- DONE
+The next section starts with a subheading of "Favorite Foods" -- DONE
+followed by an unordered list of your four favorite foods. -- DONE
+Apples (change to food of your choice), -- DONE
+Pizza (change to food of your choice), -- DONE
+Crab (change to food of your choice), -- DONE
+Chocolate Cake (change to food of your choice) -- DONE
+The next section starts with a subheading of "Achievements" -- DONE
+followed by three progress bars. -- DONE
+The text to use is:
+Progress in this course (100%), -- DONE
+Progress in the Specialization capstone (20%), -- DONE
+and Progress in life goals (67%) (change to goal and completion level of your choice) -- DONE
+The next section starts with a subheading of "More About Me" -- DONE
+that contains a details tag with a summary of your childhood. -- DONE
+Supply a short (real or fake) description of your childhood. -- DONE
+Next include a link to the image at http://www.intro-webdesign.com/images/newlogo.png -- DONE
+and the text "This page was created by insert your name and Colleen van Lent. To learn more about -- DONE (<br> here>
+web design, visit Intro to Web Design." -- DONE
+Make sure to use an ampersand for the -- DONE (&amp;)
+and The text "Intro to Web Design" should link to http://www.intro-webdesign.com. -- DONE
+======================================================================================================================
+-->
+<!--
+======================================================================================================================
+NOTES:
+======================================================================================================================
+<style> tag used to style progress bars as close to what was shown in the assignment image and for fonts
+<br> used in the footer to break the line as shown in the assignment image
+<span> used instead of <p> fpor the in the <footer> so that the display is inline and not block
+<section> tags used with IDs to make the html more semantically correct
+<div> is not used
+<hx> tags are used after every <section> tag
+<header><nav><main><footer> and <figure> tags are used for semantic structure
+
+HOSTED ON GITHUB PAGES: https://sanjitnarwekar.github.io/sanjit-html-project/
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sanjit HTML Project</title>
+    <style>
+      progress {
+        color: royalblue;
+        height: 5px;
+        vertical-align: middle;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Sanjit Sharad Narwekar</h1>
+      <nav>
+        <a href="sanjit-html-Project.html">One</a>
+        <a href="sanjit-html-Project.html">Two</a>
+        <a href="sanjit-html-Project.html">Three</a>
+        <a href="sanjit-html-Project.html">My Choice</a>
+      </nav>
+    </header>
+    <main>
+      <section id="favourite-foods">
+        <h2>Favourite Foods</h2>
+        <ul id="list-of-favourite-foods">
+          <li>Steak</li>
+          <li>Sushi</li>
+          <li>Biryani</li>
+          <li>Caramel Custard</li>
+        </ul>
+      </section>
+      <section id="achievements">
+        <h2>Achievements</h2>
+        <p>
+          Progress in this course (100%)
+          <progress max="100" value="100"></progress>
+        </p>
+        <p>
+          Progress in the Specialization capstone (20%)
+          <progress max="100" value="20"></progress>
+        </p>
+        <p>
+          Progress in Saveing the World (8%)
+          <progress max="100" value="8"></progress>
+        </p>
+      </section>
+      <section id="about-me">
+        <h2>
+          More About Me
+        </h2>
+        <details>
+          <summary>My Childhood</summary>
+          <p>I grew up on Krypton. Man, that was super.</p>
+        </details>
+      </section>
+    </main>
+    <footer>
+      <figure>
+        <span>
+          <img
+            src="http://www.intro-webdesign.com/images/newlogo.png"
+            alt="WD4E Logo tilted up left to right"
+          />
+          This page was created by Sanjit Narwekar &amp; Colleen van Lent. To
+          learn more about <br />web design, visit
+          <a href="http://www.intro-webdesign.com.">Intro to Web Design</a>.
+        </span>
+      </figure>
+    </footer>
+  </body>
+</html>
