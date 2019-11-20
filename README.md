@@ -1,6 +1,7 @@
 # sanjit-html-project
 Final project as a part of Coursera course - Introduction to HTML5 : University of Michigan : Dr. Colleen van Lent
 
+<!--
 ======================================================================================================================
 VERSION 1.0.1
 ======================================================================================================================
@@ -51,3 +52,4 @@ NOTES:
 Links to all <nav> elements are unique to remove redundant or empty links
 
 HOSTED ON GITHUB PAGES: https://sanjitnarwekar.github.io/sanjit-html-project/index.html
+-->
